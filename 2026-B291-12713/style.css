@@ -1,0 +1,63 @@
+.cal{
+    margin: auto;
+    min-height: 400px;
+    width: 300px;
+    background-color: rgb(23, 23, 23);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5%;
+    padding: 8px;
+    padding-top: 100px
+}
+.display{;
+    background-color: grey;
+    padding: 20px 20px;
+    border-radius:10px;
+    height: 40px;
+}
+.zero{
+    text-align: end;
+    font-size:30px;
+    color: white;
+
+}
+.buttons{
+    display: table;
+    padding: 10px 10px 10px 10px;
+
+
+}
+button{
+      width: 20%;
+      background-color: rgb(112, 76, 8);
+      border-radius: 50%;
+      border: none;
+      padding: 20px 20px 20px 20px  ;
+      cursor: pointer;
+      margin: 7px;
+      font-size: larger;
+    
+
+
+    
+
+}
+.number{
+    background-color: rgb(108, 107, 107);
+    color: white;
+}
+button:active{
+    color: blue;
+}
+.number2{
+    width: 45%;
+    border-radius:60px ;
+    background-color: gray;
+    color: white;
+}
+.sign2{
+    background-color: rgb(181, 179, 179);
+}
+.sign{
+    color: white;
+    background-color: rgb(218, 149, 22);
+}
